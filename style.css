@@ -967,76 +967,102 @@ font-size: 16px;
     background: #fff;
 }
 
-.footer{
-    background: #333;
+.footer {
+  background-color: #e6f4ea;
+  padding: 40px 20px;
+  color: #2e5339;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-
-
-.footer .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 0 auto;
+.footer .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.footer .box-container .box{
-    margin: 2rem;
-    flex: 1 1 25rem;
+.footer .box {
+  flex: 1 1 300px;
+  min-width: 260px;
 }
 
-.footer .box-container .box .logo{
-    font-size: 3rem;
-    color: var(--green);
+.footer .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e5339;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.footer .box-container .box p{
-    font-size: 1.7rem;
-    color: #ccc;
-    padding: 1rem ;
+.footer .logo i {
+  color: #4CAF50;
 }
 
-.footer .box-container .box .share{
-    text-align: center;
-    font-size: 3rem;
-    color: #fff;
+.footer p {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.footer .box-container .box:nth-child(2) a{
-    text-align: center;
-    font-size: 1.7rem;
-    color:#eee;
-    display: block;
-    padding:.5rem 0;
+.footer .share a {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #2e5339;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-
-.footer .box-container .box:nth-child(2) a:hover{
-    text-decoration: underline;
+.footer .share a:hover {
+  color: #4CAF50;
 }
 
-.footer .box-container .box .letter{
-    font-size: 2rem;
-    color: #fff;
-}
-.footer .box-container .box .text{
- border-radius: 1.5rem;
- padding: top 2rem; ;
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.footer .box-container .box form input[type="email"]{
-    padding:0 1rem;
-    outline:none;
-    border:.2rem solid var(--green);
-    background:none;
-    font-size: 1.7rem;
-    color:#fff;
-    height:4rem;
-    width:74%;
+.email-form input,
+.email-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
 }
 
+.email-form button {
+  background-color: var(--green);
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-form button i {
+  margin-right: 6px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer .box-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .footer .box {
+    margin-bottom: 20px;
+  }
+}
 
 
 .box a {

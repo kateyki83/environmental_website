@@ -570,6 +570,7 @@ font-size: 16px;
 }
 
 
+
 .what_you_can_do{
     background:#f0f0f0;
     min-height: 100vh;
@@ -623,6 +624,83 @@ font-size: 16px;
 .what_you_can_do .container h2 {
     font-size: 25px;
     margin-left: 100px;
+}
+
+
+
+#modal-reduction {
+  max-width: 90%;
+  width: 600px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+
+#modal-reduction h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+#modal-reduction p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+#modal-reduction ul {
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+}
+
+#modal-reduction ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+#modal-reduction button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#modal-reduction button:hover {
+  background-color: #219150;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #modal-reduction {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  #modal-reduction h3 {
+    font-size: 1.3rem;
+  }
+
+  #modal-reduction p,
+  #modal-reduction ul li {
+    font-size: 0.95rem;
+  }
+
+  #modal-reduction button {
+    width: 100%;
+    font-size: 1rem;
+  }
 }
 
 

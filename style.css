@@ -663,6 +663,236 @@ font-size: 16px;
 }
 
 
+#modal-conservation {
+  max-width: 90%;
+  width: 600px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+
+#modal-conservation h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+#modal-conservation p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+#modal-conservation ul {
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+}
+
+#modal-conservation ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+#modal-conservation button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#modal-conservation button:hover {
+  background-color: #219150;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #modal-conservation {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  #modal-conservation h3 {
+    font-size: 1.3rem;
+  }
+
+  #modal-conservation p,
+  #modal-conservation ul li {
+    font-size: 0.95rem;
+  }
+
+  #modal-conservation button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+
+
+#modal-living {
+  max-width: 90%;
+  width: 600px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+
+#modal-living h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+#modal-living p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+#modal-living ul {
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+}
+
+#modal-living ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+#modal-living button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#modal-living button:hover {
+  background-color: #219150;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #modal-living {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  #modal-living h3 {
+    font-size: 1.3rem;
+  }
+
+  #modal-living p,
+  #modal-living ul li {
+    font-size: 0.95rem;
+  }
+
+  #modal-living button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+#modal-protection {
+  max-width: 90%;
+  width: 600px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+
+#modal-protection h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+#modal-protection p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+#modal-protection ul {
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+}
+
+#modal-protection ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+#modal-protection button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#modal-protection button:hover {
+  background-color: #219150;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #modal-protection {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  #modal-protection h3 {
+    font-size: 1.3rem;
+  }
+
+  #modal-protection p,
+  #modal-protection ul li {
+    font-size: 0.95rem;
+  }
+
+  #modal-protection button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
 .what_you_can_do .row .image {
     flex: 1 1 40rem;
     padding: 2rem;
@@ -1082,23 +1312,6 @@ font-size: 16px;
   .box a i:hover {
     color: var(--primary-color);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
